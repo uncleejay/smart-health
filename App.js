@@ -7,15 +7,10 @@
  */
 
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import Text, {fontNames} from './src/assets/fonts';
+import Stack from './src/navigation';
 
 const App = () => {
-  return (
-    <SafeAreaView>
-      <Text>Welcome to Smart Health</Text>
-    </SafeAreaView>
-  );
+  return <Stack />;
 };
 
 export default App;

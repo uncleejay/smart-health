@@ -8,34 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* smartHealthRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* smartHealthRNTests.m */; };
-		0322AEC2015A4036A894D748 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4C243A434ADC82D7C4E9 /* FontAwesome5_Solid.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-smartHealthRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-smartHealthRN.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2594373760E4450DAD0CDBB3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F1CDDFDD014D4C8A0ECC1B /* Montserrat-Thin.ttf */; };
-		39624910CE5540F092152C40 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8DB76CDC3B742E1BA5E434C /* FontAwesome.ttf */; };
 		3DCCAC24BC6C4CA49EC735F5 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAB816116F344FD790B5A24A /* Montserrat-Black.ttf */; };
-		4046A53440624B4D9ABB49AB /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3D27A01D84EC2A6840ADE /* Fontisto.ttf */; };
 		5C0639A671454E48895BF6BF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B55B8DB1B4634632AC4DCFA9 /* Montserrat-Regular.ttf */; };
-		63067EA4036944CDABC834DF /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D9B920369E446C9A5D2C56 /* Feather.ttf */; };
-		6B7148DB44494A74BEE6808A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52A305417A47E89BE1A178 /* Zocial.ttf */; };
 		6C2056842C4B4615B16FFAB6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86799B4B378C42F385CB94F7 /* Montserrat-Bold.ttf */; };
-		7267562A8E2D405684B0F090 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD1FAAE3D2435FBD62A7A5 /* SimpleLineIcons.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-smartHealthRN-smartHealthRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-smartHealthRN-smartHealthRNTests.a */; };
-		78FEE0163D374D6E84254FF0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9161E39773354B04B3F2A2E3 /* Entypo.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		83CCC8E88B7346A8B64AEBD8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE11F21580334FABAFA87B9B /* FontAwesome5_Brands.ttf */; };
-		97998E09464D418EA45CEE37 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3077560A12E14FEDA844936F /* AntDesign.ttf */; };
-		9DF2C53C1A9D4CC29A59271F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5607B78D80F24B59BDE37790 /* Octicons.ttf */; };
-		9FF5B1128BBD4AAEBDB5438D /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBD3BD9E0DCF46FF839E959D /* EvilIcons.ttf */; };
-		B846FF836ABA4ECC97302628 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6E63A706D64A23B07BD2A5 /* FontAwesome5_Regular.ttf */; };
-		BA41180B01214B1AB8FE4A54 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0728D651D28441789A52215B /* MaterialIcons.ttf */; };
-		BB9CBA6702D941258B2C973A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5405719B497646BBBBE2D0F1 /* Foundation.ttf */; };
-		BE7BC78CED77493A8172B504 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E860B9C322B64ABEB4D60817 /* Ionicons.ttf */; };
 		E8F1B5F3EE6A491C85767509 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFF589CFDEC74771982A7323 /* Montserrat-Light.ttf */; };
 		FA37F7FE4D7042B49F4B909C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC7E2A727A0842189E853A4C /* Montserrat-Medium.ttf */; };
-		FF54BE24FAA944439C83D9E1 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A4FE7335234A7E83FD1151 /* MaterialCommunityIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,22 +308,6 @@
 				FA37F7FE4D7042B49F4B909C /* Montserrat-Medium.ttf in Resources */,
 				5C0639A671454E48895BF6BF /* Montserrat-Regular.ttf in Resources */,
 				2594373760E4450DAD0CDBB3 /* Montserrat-Thin.ttf in Resources */,
-				97998E09464D418EA45CEE37 /* AntDesign.ttf in Resources */,
-				78FEE0163D374D6E84254FF0 /* Entypo.ttf in Resources */,
-				9FF5B1128BBD4AAEBDB5438D /* EvilIcons.ttf in Resources */,
-				63067EA4036944CDABC834DF /* Feather.ttf in Resources */,
-				39624910CE5540F092152C40 /* FontAwesome.ttf in Resources */,
-				83CCC8E88B7346A8B64AEBD8 /* FontAwesome5_Brands.ttf in Resources */,
-				B846FF836ABA4ECC97302628 /* FontAwesome5_Regular.ttf in Resources */,
-				0322AEC2015A4036A894D748 /* FontAwesome5_Solid.ttf in Resources */,
-				4046A53440624B4D9ABB49AB /* Fontisto.ttf in Resources */,
-				BB9CBA6702D941258B2C973A /* Foundation.ttf in Resources */,
-				BE7BC78CED77493A8172B504 /* Ionicons.ttf in Resources */,
-				FF54BE24FAA944439C83D9E1 /* MaterialCommunityIcons.ttf in Resources */,
-				BA41180B01214B1AB8FE4A54 /* MaterialIcons.ttf in Resources */,
-				9DF2C53C1A9D4CC29A59271F /* Octicons.ttf in Resources */,
-				7267562A8E2D405684B0F090 /* SimpleLineIcons.ttf in Resources */,
-				6B7148DB44494A74BEE6808A /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
