@@ -8,6 +8,7 @@ export const fontNames = {
   MEDIUM: 'Montserrat-Medium',
   THIN: 'Montserrat-Thin',
   REGULAR: 'Montserrat-Regular',
+  SEMIBOLD: 'Montserrat-SemiBold',
   BLACK: 'Montserrat-Black',
 };
 
@@ -16,12 +17,10 @@ export default ({
   textStyles,
   children,
   numberOfLines,
-  onPress = null,
 }) => {
   return (
     <Text
       numberOfLines={numberOfLines}
-      onPress={onPress ? onPress : () => {}}
       style={[
         {
           fontFamily: type,
