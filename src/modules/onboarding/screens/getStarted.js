@@ -44,7 +44,7 @@ const GetStarted = ({navigation}) => {
           </Text>
         </View>
         <Button
-          onPress={() => navigation.navigate(routesNames.ONBOARDING_SCREEN2)}
+          onPress={() => navigation.navigate(routesNames.ONBOARDING_SCREEN6)}
           buttonText="GET STARTED"
           buttonStyle={{marginBottom: 36}}
         />

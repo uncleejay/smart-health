@@ -22,6 +22,21 @@ export default () => {
           options={{headerShown: false}}
         />
         <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN6}
+          component={ONBOARDING.SignUp}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN7}
+          component={ONBOARDING.Login}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN8}
+          component={ONBOARDING.ForgotPassword}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
           name={routesNames.ONBOARDING_SCREEN2}
           component={ONBOARDING.Goal}
           options={{headerShown: false}}
@@ -52,4 +67,7 @@ export const routesNames = {
   ONBOARDING_SCREEN3: 'Onboarding/Diet',
   ONBOARDING_SCREEN4: 'Onboarding/Height',
   ONBOARDING_SCREEN5: 'Onboarding/Plan',
+  ONBOARDING_SCREEN6: 'Onboarding/SignUp',
+  ONBOARDING_SCREEN7: 'Onboarding/Login',
+  ONBOARDING_SCREEN8: 'Onboarding/ForgotPassword',
 };
