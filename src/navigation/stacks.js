@@ -21,6 +21,21 @@ export default () => {
           component={ONBOARDING.GetStarted}
           options={{headerShown: false}}
         />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN2}
+          component={ONBOARDING.Goal}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN3}
+          component={ONBOARDING.Diet}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN4}
+          component={ONBOARDING.Height}
+          options={{headerShown: false}}
+        />
       </Routes.Navigator>
     </NavigationContainer>
   );
@@ -28,4 +43,7 @@ export default () => {
 
 export const routesNames = {
   ONBOARDING_SCREEN1: 'Onboarding/GetStarted',
+  ONBOARDING_SCREEN2: 'Onboarding/Goal',
+  ONBOARDING_SCREEN3: 'Onboarding/Diet',
+  ONBOARDING_SCREEN4: 'Onboarding/Height',
 };

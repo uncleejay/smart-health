@@ -1,12 +1,13 @@
 import React from 'react';
-import {SafeAreaView, ImageBackground, View} from 'react-native';
+import {ImageBackground, View} from 'react-native';
 import Colors from '../../../assets/colors';
 import Text, {fontNames} from '../../../assets/fonts';
 import {onboardingBg} from '../../../assets/images/png';
 import Styles from '../style';
 import Button from '../../../components/button';
+import {routesNames} from '../../../navigation/stacks';
 
-const GetStarted = () => {
+const GetStarted = ({navigation}) => {
   return (
     <ImageBackground style={Styles.container} source={onboardingBg}>
       <View>
@@ -42,7 +43,11 @@ const GetStarted = () => {
             📈 Follow your plan and experience the resullts
           </Text>
         </View>
-        <Button buttonText="GET STARTED" buttonStyle={{marginBottom: 36}} />
+        <Button
+          onPress={() => navigation.navigate(routesNames.ONBOARDING_SCREEN2)}
+          buttonText="GET STARTED"
+          buttonStyle={{marginBottom: 36}}
+        />
         <View
           style={{
             flexDirection: 'row',

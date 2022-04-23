@@ -10,6 +10,12 @@ export default StyleSheet.create({
     paddingHorizontal: 16,
     justifyContent: 'flex-end',
   },
+  container2: {
+    flex: 1,
+    backgroundColor: Colors.white,
+    paddingTop: Platform.OS === 'ios' ? 76 : 50,
+    paddingHorizontal: 16,
+  },
   headingText: {
     fontSize: 30,
     marginBottom: 5,
@@ -27,5 +33,36 @@ export default StyleSheet.create({
     marginBottom: 10,
     lineHeight: 16,
     color: Colors.black,
+  },
+  pageTitle: {
+    fontSize: 25,
+    lineHeight: 29,
+    color: Colors.black,
+  },
+  subColorText: {
+    color: Colors.secondary,
+    marginLeft: 5,
+  },
+  listBox: {
+    width: '100%',
+    height: 83,
+    paddingHorizontal: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: Colors.stepColor,
+    marginBottom: 33,
+    borderRadius: 6,
+  },
+  listBoxTitle: {
+    fontSize: 20,
+    lineHeight: 23,
+    color: Colors.black,
+    marginBottom: 8,
+  },
+  listBoxDescription: {
+    fontSize: 14,
+    lineHeight: 16,
+    color: '#808080',
   },
 });

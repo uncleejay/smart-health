@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "🍠",
+    "title": "Vegan",
+    "description": "No meat, eggs and diary products"
+  },
+  {
+    "id": 2,
+    "icon": "🥛",
+    "title": "Vegetarian",
+    "description": "No meat, poultry or seafood"
+  },
+  {
+    "id": 3,
+    "icon": "🍗",
+    "title": "Gluten Free",
+    "description": "No wheat, barley"
+  },
+  {
+    "id": 4,
+    "icon": "🥚️",
+    "title": "Lactose Free",
+    "description": "No diary based products"
+  }
+]
