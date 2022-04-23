@@ -4,6 +4,8 @@ import Text, {fontNames} from '../../../assets/fonts';
 import Styles from '../style';
 import Button from '../../../components/button';
 import OnboardingHeader from '../../../components/onboardingHeader';
+import ScrollPicker from 'react-native-wheel-scrollview-picker';
+import {routesNames} from '../../../navigation/stacks';
 
 const Height = ({navigation}) => {
   return (
@@ -26,13 +28,32 @@ const Height = ({navigation}) => {
             height?
           </Text>
         </View>
+        <View>
+          <ScrollPicker
+            dataSource={['150cm', '151cm', '152cm', '153cm', '154cm', '155cm']}
+            selectedIndex={3}
+            wrapperHeight={180}
+            wrapperWidth={150}
+            wrapperColor="#FFFFFF"
+            itemHeight={60}
+            highlightColor="#d8d8d8"
+            highlightBorderWidth={2}
+          />
+        </View>
+      </ScrollView>
+      <View style={{alignSelf: 'flex-end', width: '100%', paddingBottom: 40}}>
         <Button
           type="outline"
           buttonText="NEXT STEP"
           buttonStyle={{marginBottom: 10}}
+          onPress={() => navigation.navigate(routesNames.ONBOARDING_SCREEN5)}
         />
-        <Button type="empty" buttonText="PREVIOUS STEP" />
-      </ScrollView>
+        <Button
+          type="empty"
+          buttonText="PREVIOUS STEP"
+          onPress={() => navigation.goBack()}
+        />
+      </View>
     </View>
   );
 };

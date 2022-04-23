@@ -65,4 +65,19 @@ export default StyleSheet.create({
     lineHeight: 16,
     color: '#808080',
   },
+  inputLabel: {
+    fontSize: 14,
+    color: '#999999',
+    lineHeight: 16,
+    marginBottom: 15,
+  },
+  inputBox: {
+    width: '100%',
+    height: 53,
+    borderColor: '#C4C4C4',
+    borderWidth: 1,
+    borderRadius: 6,
+    paddingHorizontal: 10,
+    marginBottom: 27,
+  },
 });
