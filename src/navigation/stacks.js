@@ -36,6 +36,11 @@ export default () => {
           component={ONBOARDING.Height}
           options={{headerShown: false}}
         />
+        <Routes.Screen
+          name={routesNames.ONBOARDING_SCREEN5}
+          component={ONBOARDING.Plan}
+          options={{headerShown: false}}
+        />
       </Routes.Navigator>
     </NavigationContainer>
   );
@@ -46,4 +51,5 @@ export const routesNames = {
   ONBOARDING_SCREEN2: 'Onboarding/Goal',
   ONBOARDING_SCREEN3: 'Onboarding/Diet',
   ONBOARDING_SCREEN4: 'Onboarding/Height',
+  ONBOARDING_SCREEN5: 'Onboarding/Plan',
 };
