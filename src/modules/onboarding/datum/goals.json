@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "💪",
+    "title": "Gain Weight",
+    "description": "For underweight and low BMI"
+  },
+  {
+    "id": 2,
+    "icon": "🙌",
+    "title": "Lose Weight",
+    "description": "For underweight and low BMI"
+  },
+  {
+    "id": 3,
+    "icon": "🥗",
+    "title": "Eat Healthy",
+    "description": "For underweight and low BMI"
+  },
+  {
+    "id": 4,
+    "icon": "⚡️",
+    "title": "Keep Fit",
+    "description": "For underweight and low BMI"
+  }
+]

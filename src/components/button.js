@@ -29,6 +29,8 @@ function buttonType(type) {
     return {bg: style.defaultStyle, text: style.defaultTextStyle};
   } else if (type === 'outline') {
     return {bg: style.outlineStyle, text: style.outlineTextStyle};
+  } else if (type === 'empty') {
+    return {bg: style.emptyStyle, text: style.outlineTextStyle};
   }
 }
 
@@ -52,10 +54,17 @@ const style = StyleSheet.create({
     borderRadius: 6,
     alignItems: 'center',
     justifyContent: 'center',
+    height: 53,
   },
   outlineTextStyle: {
     color: Colors.buttonBg,
     fontSize: 18,
     lineHeight: 22,
+  },
+  emptyStyle: {
+    backgroundColor: 'transparent',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 53,
   },
 });
