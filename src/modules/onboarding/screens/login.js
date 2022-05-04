@@ -44,7 +44,7 @@ const Login = ({navigation}) => {
           </Text>
         </TouchableOpacity>
         <Button
-          onPress={() => navigation.navigate(routesNames.ONBOARDING_SCREEN2)}
+          onPress={() => navigation.navigate(routesNames.APP)}
           buttonText="LOGIN"
           buttonStyle={{marginBottom: 36}}
         />
