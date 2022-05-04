@@ -5,6 +5,7 @@ import {
   createStackNavigator,
 } from '@react-navigation/stack';
 import {_navigator} from './service';
+import bottomnavigation from './bottomnavigation';
 import * as ONBOARDING from '../modules/onboarding';
 
 const Routes = createStackNavigator();
@@ -56,6 +57,11 @@ export default () => {
           component={ONBOARDING.Plan}
           options={{headerShown: false}}
         />
+        <Routes.Screen
+          name={routesNames.APP}
+          component={bottomnavigation}
+          options={{headerShown: false}}
+        />
       </Routes.Navigator>
     </NavigationContainer>
   );
@@ -70,4 +76,10 @@ export const routesNames = {
   ONBOARDING_SCREEN6: 'Onboarding/SignUp',
   ONBOARDING_SCREEN7: 'Onboarding/Login',
   ONBOARDING_SCREEN8: 'Onboarding/ForgotPassword',
+  APP: 'App',
+  HOME: 'Home',
+  RECIPES: 'Recipes',
+  DISCOVER: 'Discover',
+  DIETS: 'Diets',
+  ADD: 'Add',
 };
